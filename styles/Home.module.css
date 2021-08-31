@@ -1,0 +1,199 @@
+.container {
+  min-height: 100vh;
+  background-color: #FF4B28;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: -50px;
+}
+
+.sg {
+  font-size: 15px;
+  color: #FFCA3A;
+}
+
+.main {
+  color: white;
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  margin-top: -50px;
+  width: 100%;
+  height: 80px;
+  border-top: 1px solid #FFCA3A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: #ffca3ab2;
+  font-weight: lighter;
+  font-size: 12px;
+  max-width: 250px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #FFCA3A;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  color: #FFD154;
+  transition: color 0.30s ease;
+}
+
+.title {
+  margin: 10px;
+  line-height: 1.15;
+  font-size: 55px;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  max-width: 350px;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+/* Primeiro Card */
+.card1 {
+  margin: 10px;
+  text-align: center;
+  background-color: #6a4c93;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: color 0.30s ease;
+  width: 200px;
+  height: 80px;
+}
+
+.card1:hover,
+.card1:focus,
+.card1:active {
+  color: #6A4C93;
+  background-color: #AF8BE0;
+}
+
+.card1 h2 {
+  font-weight: normal;
+  padding: 5px;
+  font-size: 22px;
+}
+
+
+/* Segundo Card */
+.card2 {
+  margin: 10px;
+  text-align: center;
+  background-color: #1982C4;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: color 0.30s ease;
+  width: 200px;
+  height: 80px;
+}
+
+.card2:hover,
+.card2:focus,
+.card2:active {
+  color: #1982C4;
+  background-color: #3BB4FF;
+}
+
+.card2 h2 {
+  font-weight: normal;
+  padding: 5px;
+  font-size: 22px;
+}
+
+/* Terceiro Card */
+.card3 {
+  margin: 10px;
+  text-align: center;
+  background-color: #8AC926;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: color 0.30s ease;
+  width: 200px;
+  height: 80px;
+}
+
+.card3:hover,
+.card3:focus,
+.card3:active {
+  color: #8AC926;
+  background-color: #BAFF4A;
+}
+
+.card3 h2 {
+  font-weight: normal;
+  padding: 5px;
+  font-size: 22px;
+}
+
+/* Ultimos Cards - Email e Localização */
+.cardpad {
+  margin: 10px;
+  text-align: center;
+  background-color: #FFCA3A;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: color 0.30s ease;
+  width: 200px;
+  height: 80px;
+}
+
+.cardpad:hover,
+.cardpad:focus,
+.cardpad:active {
+  color: #B38917;
+  background-color: #FFD154;
+}
+
+.cardpad h2 {
+  font-weight: normal;
+  padding: 5px;
+  font-size: 22px;
+}
+
+.footer a {
+  color: #FFCA3A;
+  font-size: 12px;
+}
