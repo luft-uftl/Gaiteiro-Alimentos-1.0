@@ -44,7 +44,7 @@ export default function Home() {
             <h2>Whatsapp</h2>
           </a>
 
-          <a href="mailto: vendas@gaiteiroalimentos.com.br" className={styles.cardpad} target="_blank">
+          <a href="mailto: vendas@gaiteiroalimentos.com.br" className={styles.cardpad} target="_blank" rel="noreferrer">
             <h2>E-mail</h2>
           </a>
 
