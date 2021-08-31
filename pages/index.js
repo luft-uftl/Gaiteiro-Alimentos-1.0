@@ -23,7 +23,7 @@ export default function Home() {
         </div>
 
         <h1 className={styles.title}>
-          <a href="https://www.instagram.com/gaiteiroalimentosrs/" target="_blank">Bem-Vindo</a>
+          <a href="https://www.instagram.com/gaiteiroalimentosrs/" target="_blank" rel="noreferrer noopener">Bem-Vindo</a>
         </h1>
 
         <p className={styles.description}>
@@ -32,23 +32,23 @@ export default function Home() {
 
         <div className={styles.grid}>
 
-          <a href="https://www.instagram.com/gaiteiroalimentosrs/" className={styles.card1} target="_blank">
+          <a href="https://www.instagram.com/gaiteiroalimentosrs/" className={styles.card1} target="_blank" rel="noreferrer noopener"> 
             <h2>Instagram</h2>
           </a>
 
-          <a href="https://www.facebook.com/gaiteiroalimentosrs" className={styles.card2} target="_blank">
+          <a href="https://www.facebook.com/gaiteiroalimentosrs" className={styles.card2} target="_blank" rel="noreferrer noopener">
             <h2>Facebook</h2>
           </a>
 
-          <a href="https://api.whatsapp.com/send?phone=5551993136049&text=Ola%2C%20tudo%20bem%3F" className={styles.card3} target="_blank">
+          <a href="https://api.whatsapp.com/send?phone=5551993136049&text=Ola%2C%20tudo%20bem%3F" className={styles.card3} target="_blank" rel="noreferrer noopener">
             <h2>Whatsapp</h2>
           </a>
 
-          <a href="mailto: vendas@gaiteiroalimentos.com.br" className={styles.cardpad} target="_blank" rel="noreferrer">
+          <a href="mailto: vendas@gaiteiroalimentos.com.br" className={styles.cardpad} target="_blank" rel="noreferrer noopener">
             <h2>E-mail</h2>
           </a>
 
-          <a href="https://www.google.com/maps/place/Gaiteiro+Alimentos/@-29.9047733,-51.0421656,15z/data=!4m2!3m1!1s0x0:0xd2fdfe157d571e30?sa=X&ved=2ahUKEwjA4dyYntfyAhXYGrkGHfHrBBUQ_BIwG3oECF0QBQ" className={styles.cardpad} target="_blank">
+          <a href="https://www.google.com/maps/place/Gaiteiro+Alimentos/@-29.9047733,-51.0421656,15z/data=!4m2!3m1!1s0x0:0xd2fdfe157d571e30?sa=X&ved=2ahUKEwjA4dyYntfyAhXYGrkGHfHrBBUQ_BIwG3oECF0QBQ" className={styles.cardpad} target="_blank" rel="noreferrer noopener">
             <h2>Localização</h2>
           </a>
         </div>
